@@ -1,5 +1,7 @@
+export { default as AddGuests } from '../../components/AddGuests.vue'
 export { default as Loading } from '../../components/Loading.vue'
 export { default as Login } from '../../components/Login.vue'
+export { default as Sidenav } from '../../components/Sidenav.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

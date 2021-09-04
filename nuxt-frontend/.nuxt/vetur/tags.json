@@ -1,8 +1,14 @@
 {
+  "AddGuests": {
+    "description": "Auto imported from components/AddGuests.vue"
+  },
   "Loading": {
     "description": "Auto imported from components/Loading.vue"
   },
   "Login": {
     "description": "Auto imported from components/Login.vue"
+  },
+  "Sidenav": {
+    "description": "Auto imported from components/Sidenav.vue"
   }
 }

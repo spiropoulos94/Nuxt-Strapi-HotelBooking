@@ -6,5 +6,7 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<AddGuests>` | `<add-guests>` (components/AddGuests.vue)
 - `<Loading>` | `<loading>` (components/Loading.vue)
 - `<Login>` | `<login>` (components/Login.vue)
+- `<Sidenav>` | `<sidenav>` (components/Sidenav.vue)

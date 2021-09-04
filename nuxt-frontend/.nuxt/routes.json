@@ -1,9 +1,26 @@
 [
   {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/Users/nikosspiropoulos/Development/Strapi-Nuxt-HotelBookingApp/nuxt-frontend/pages/dashboard/index.vue",
+    "chunkName": "pages/dashboard/index"
+  },
+  {
+    "name": "dashboard-guests",
+    "path": "/dashboard/guests",
+    "component": "/Users/nikosspiropoulos/Development/Strapi-Nuxt-HotelBookingApp/nuxt-frontend/pages/dashboard/guests.vue",
+    "chunkName": "pages/dashboard/guests"
+  },
+  {
+    "name": "dashboard-rooms",
+    "path": "/dashboard/rooms",
+    "component": "/Users/nikosspiropoulos/Development/Strapi-Nuxt-HotelBookingApp/nuxt-frontend/pages/dashboard/rooms.vue",
+    "chunkName": "pages/dashboard/rooms"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/nikosspiropoulos/Development/Strapi-Nuxt-HotelBookingApp/nuxt-frontend/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_c4e06d02"
+    "chunkName": "pages/index"
   }
 ]
