@@ -1,5 +1,8 @@
 {
   "Loading": {
     "description": "Auto imported from components/Loading.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/Login.vue"
   }
 }

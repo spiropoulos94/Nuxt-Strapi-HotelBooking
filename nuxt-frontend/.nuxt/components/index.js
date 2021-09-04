@@ -1,4 +1,5 @@
 export { default as Loading } from '../../components/Loading.vue'
+export { default as Login } from '../../components/Login.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
