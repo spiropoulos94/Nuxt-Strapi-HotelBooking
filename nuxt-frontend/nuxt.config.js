@@ -31,16 +31,24 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxtjs/strapi",
-    "@nuxtjs/auth-next"
+    "@nuxtjs/auth-next",
+    '@nuxtjs/fontawesome',
   ],
   strapi: {
     entities: ["guests", "rooms"]
   },
+  fontawesome: {
+		icons: {
+			solid: [ 'faHome', 'faArrowRight', 'faEye', 'faEyeSlash', 'faUsers', 'faBed', 'faBell', 'faCircle', 'faPlus', 'fas']
+		}
+	},
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

@@ -14,6 +14,7 @@ import { createStore } from './store.js'
 /* Plugins */
 
 import nuxt_plugin_plugin_fa0424ae from 'nuxt_plugin_plugin_fa0424ae' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_fontawesome_1e5c7641 from 'nuxt_plugin_fontawesome_1e5c7641' // Source: ./fontawesome.js (mode: 'all')
 import nuxt_plugin_cookieuniversalnuxt_8ee86032 from 'nuxt_plugin_cookieuniversalnuxt_8ee86032' // Source: ./cookie-universal-nuxt.js (mode: 'all')
 import nuxt_plugin_httpserver_402bd7ec from 'nuxt_plugin_httpserver_402bd7ec' // Source: ./http.server.js (mode: 'server')
 import nuxt_plugin_http_acf97f9e from 'nuxt_plugin_http_acf97f9e' // Source: ./http.js (mode: 'all')
@@ -217,6 +218,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_fa0424ae === 'function') {
     await nuxt_plugin_plugin_fa0424ae(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_fontawesome_1e5c7641 === 'function') {
+    await nuxt_plugin_fontawesome_1e5c7641(app.context, inject)
   }
 
   if (typeof nuxt_plugin_cookieuniversalnuxt_8ee86032 === 'function') {
